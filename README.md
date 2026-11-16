@@ -56,11 +56,7 @@ I'm a software developer focused on Laravel and PHP, building SaaS platforms, bo
 | Proje / Project | Açıklama / Description | Teknoloji / Technology |
 |:--|:--|:--|
 | [USBLens](https://github.com/yunuskayax/USBLens) | Herkese açık TypeScript projesi / Public TypeScript project | TypeScript |
-| [remix-admin-template](https://github.com/yunuskayax/remix-admin-template) | Herkese açık yönetim paneli şablonu / Public admin template | TypeScript |
-| [neoblog](https://github.com/yunuskayax/neoblog) | Laravel ile açık kaynak blog platformu / Open-source blog platform built with Laravel | Laravel |
-| [usbfinder](https://github.com/yunuskayax/usbfinder) | USB cihazlarını yönetme ve takip aracı / USB device management and tracking tool | C# |
 | [ambar](https://github.com/yunuskayax/ambar) | Android telefonlardan ADB ile yedek alma / Android backups via ADB | Python |
-| [gigaveri](https://github.com/yunuskayax/gigaveri) | ADB ile Android cihazlardan veri alma / Android data extraction via ADB | Python |
 
 ## 📈 GitHub / Public Activity
 
