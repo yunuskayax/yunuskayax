@@ -4,6 +4,15 @@
   <linearGradient id="stroke" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
   <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#334155" stroke-opacity=".24"/></pattern>
   <filter id="glow"><feGaussianBlur stdDeviation="11"/></filter>
+  <clipPath id="banner-clip"><rect width="1200" height="290" rx="18"/></clipPath>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset=".38" stop-color="#67e8f9" stop-opacity=".03"/>
+    <stop offset=".5" stop-color="#ffffff" stop-opacity=".22"/>
+    <stop offset=".62" stop-color="#c4b5fd" stop-opacity=".07"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </linearGradient>
+  <style>@media (prefers-reduced-motion: reduce) { .banner-shine { display: none; } }</style>
 </defs>
 <rect width="1200" height="290" rx="18" fill="url(#bg)"/>
 <rect width="1200" height="290" rx="18" fill="url(#grid)"/>
@@ -14,4 +23,10 @@
 <text x="72" y="163" font-family="Verdana,Arial,sans-serif" font-size="66" font-weight="bold" fill="#f8fafc">YUNUS KAYA</text>
 <text x="76" y="210" font-family="Verdana,Arial,sans-serif" font-size="24" fill="#c4b5fd">FULL STACK DEVELOPER  ·  SAAS BUILDER</text>
 <g transform="translate(935 75)" stroke="url(#stroke)" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M32 0L0 40l32 40M120 0l32 40-32 40M92 -8L60 89"/></g>
+<g class="banner-shine" clip-path="url(#banner-clip)" pointer-events="none">
+  <g transform="translate(-480 0)">
+    <animateTransform attributeName="transform" type="translate" values="-480 0;1500 0;1500 0" keyTimes="0;.65;1" dur="6s" repeatCount="indefinite"/>
+    <path d="M100 -40H340L240 330H0Z" fill="url(#shine)"/>
+  </g>
+</g>
 </svg>
